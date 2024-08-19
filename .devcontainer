@@ -1,0 +1,16 @@
+{
+    "name": "Kivy Android Development",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python"
+    ],
+    "forwardPorts": [],
+    "postCreateCommand": "echo 'Container is ready!'",
+    "remoteUser": "root"
+}
